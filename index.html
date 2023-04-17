@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!--Title of the website-->
+    <title>Apollo | Mental Health App</title>
+
+    <!-- Mobile Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--Meta Tags-->
+    <meta name="description" content="A mental health app designed for smartwatches and smartphones.
+          It's priority is helping people who struggle with mental health problems." />
+    <meta name="language" content="EN" />
+    <meta name="keywords" content="Mental Health app, smartwatch app, phone app, mental health">
+    <meta name="author" content="Michael Connor, darkkwami@gmail.com" />
+    <!-- styles and scripts -->
+    <link rel="stylesheet" type="text/css" href="styles/notmain.css" />
+    <script src="scripts/js/jquery-minified.js" defer></script>
+    <script src="scripts/js/materialize.js" defer></script>
+    <script src="scripts/js/main.js" defer></script>
+    <script src="scripts/js/secrets.js" defer></script>
+
+    <!-- External styles and scripts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--Favicon-->
+    <link rel="icon" href="images/logovector.ico" type="image/x-icon" />
+
+
+</head>
+
+<body>
+    <header>
+        <!-- Navigation bar-->
+        <nav class="navbar-fixed nav" id="nav">
+            <div class="internal-nav">
+                <a class="navbar-brand nav-link nav-brand-border" href="#home">Apollo</a>
+                <a href="#!" data-target="mobile-demo" class="sidenav-trigger nav-link"><i
+                        class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="nav-border"><a class="nav-link" href="#home"><b>Home</b></a></li>
+                    <li class="nav-border"><a class="nav-link" href="#about"><b>About Us</b></a></li>
+                    <li class="nav-border"><a class="nav-link" href="#what"><b>Meet The Team</b></a></li>
+                    <li class="nav-border"><a class="nav-link" href="#app"><b>The App</b></a></li>
+                    <li class="nav-border"><a class="nav-link" href="#contact"><b>Contact</b></a></li>
+                    <li class="nav-border">
+                        <div class="switch padding-left nav-link">
+                            <label>
+                                Light
+                                <input type="checkbox" id="switchDarkTheme" />
+                                <span class="lever"></span>
+                                Dark
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--Sidenav bar-->
+        <ul class="sidenav" id="mobile-demo">
+            <li class="sidenav-border"><a href="#home"><b>Home</b></a></li>
+            <li class="sidenav-border"><a href="#about"><b>About Us</b></a></li>
+            <li class="sidenav-border"><a href="#what"><b>Meet The Team</b></a></li>
+            <li class="sidenav-border"><a href="#app"><b>The App</b></a></li>
+            <li class="sidenav-border"><a href="#contact"><b>Contact</b></a></li>
+
+            <li class="sidenav-border">
+                <div class="switch padding-left">
+                    <label>
+                        Light
+                        <input type="checkbox" id="switchDarkThemeSidenav" />
+                        <span class="lever"></span>
+                        Dark
+                    </label>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section>
+            <div id="home" class="parallax home-box">
+                <div class="container">
+                    <h1 class="center home-header " id="title">Welcome to Apollo</h1>
+                    <img src="images/logovector.png" class="home-img" alt="Home logo of Apollo" id="apolloLogo" />
+                    <div class="col s12 center">
+                        <h3 class="color" id="learn-more">Scroll down to learn more.</h3>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- WHAT -->
+        <div id="about" class=" what-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m4 border info-box">
+                        <!--Group aim-->
+                        <h1 class="aim-header center ">Aim.</h1>
+                        <p class="center p-aim-text">
+                            Our aim is to build a multi-platform app that will track and monitor a person’s state of
+                            being, in terms of anxiety, by using a scale of one to five.
+                            The app will also include coping mechanisms and journal logs for you to keep track of your
+                            progress. Doctors, counsellors, and peers can also access this data if needed with your
+                            consent.
+                        </p>
+                    </div>
+                    <div class="col s12 m4 border info-box">
+                        <!--The idea of the app-->
+                        <h1 class="aim-header center ">Idea.</h1>
+                        <p class="center p-aim-text">
+                            Apollo is the idea of building an application on a smartwatch (WearOS) which can be used on
+                            Android smartphones and watches. This will help users to manage and subdue their anxieties
+                            causing for an easier life day to day.
+                        </p>
+                    </div>
+                    <div class="col s12 m4 border info-box">
+                        <!--Why it was created-->
+                        <h1 class="aim-header center ">Why?</h1>
+                        <p class="center p-aim-text">
+                            Why are we creating this app? Well, the reason is, that some of the team members families
+                            and themselves, have suffered from mental health issues in the past and they didn't
+                            get the help needed to improve their wellbeing. Using our experiences, we are trying to help
+                            people going through similar situations to create a better place in our app.
+                        </p>
+                    </div>
+                    <div class="col s12 border  margin-top-text">
+                        <!--The idea of the name-->
+                        <h1 class="center name-about ">Name Idea</h1>
+                        <p class="about-text">
+                            We decided on the name “Apollo” due to Apollo being the patron God of light and healing; we
+                            felt like this was very fitting to our ambitions with this
+                            project as we aim to help, heal, and bring betterment to people suffering from mental
+                            health. It’s important to us to do something about ongoing poor mental health,
+                            especially in young people as 50% of young people establish mental health problems by the
+                            age of 14 this can grow to 75% of young people establishing mental health problems by 24.
+                            Research has also shown that 1 in 6 young people will have experienced an anxiety disorder
+                            at some point in their lives, which for us is one too many.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+        <div id="what" class="about-box ">
+            <div class="container ">
+                <div class="row">
+                    <div class="col s12">
+                        <!--Team-->
+                        <ul class="collapsible">
+                            <li>
+
+                                <!--Mikey-->
+                                <div class="collapsible-header center-align ">
+                                    <h3 class="team-names">Michael Connor</h3>
+                                </div>
+                                <!--Images-->
+                                <div class="collapsible-body border-top-bottom clearfix sd22ow">
+                                    <div class="col s12">
+                                        <p class="team-text">
+                                            I'm Mikey and my role in this project is Head Coder. As I am the head of
+                                            coding, I have to make sure that that everything required and needed around
+                                            code is completed and is on time.
+                                            I work very closely with my team because if there isn't any communication
+                                            between us the app and website will not be created and cannot benefit our
+                                            users. I chose to work on Apollo as I want to help my friends and family to
+                                            have a better coping system for their mental health.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="collapsible-body  center-align collapsible-title collapsible-body-padding">
+                                    <span class="job">Head of Development</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- APP box-->
+        <div class="app-box" id="app">
+            <!--Features -->
+            <div class="app-inside">
+                <div class="container">
+                    <div class="row">
+                        <div class="col  s12">
+                            <h1 class="center app-header-2">
+                                Features
+                            </h1>
+                            <p class="center app-text">
+                                <strong>We</strong> use your heartrate data given to us throughout the day, to create a
+                                graph displaying your heartrate trends, this will help us and you to identify stressors
+                                and triggers in your day to day life which we can then help you tackle through our
+                                meditational videos.
+                            </p>
+                            <p class="center app-text margin-top-text">
+                                <strong>Another</strong> feature we are going to include are videos and instructions for
+                                meditation/coping exercises that you can utilise at times where you may feel anxious or
+                                struggling with everything around you.This coupled with the tracking chart, is only a
+                                part of how we aim to tackle the challenge of mental health in society.
+                            </p>
+                        </div>
+                        <div class="col s12">
+                            <div class="margin-top-text"></div>
+                            <img src="images/app-on-screen.jpg"
+                                class="e2wsasw2Chase circle responsive-images margin-image images" height="250"
+                                width="250" alt="App on a smartwatch" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Designed For-->
+            <div class="app-inside-2 ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col  s12">
+                            <h1 class="center app-header-2">
+                                Designed for your needs
+                            </h1>
+                            <p class="center app-text">
+                                <strong>Our</strong> app is designed with helping reduce or manage mental health as the
+                                foremost priority. However this does not mean we won't expand. Hopefully as we help you,
+                                you will help us to grow, in order to branch into other sectors like physical health and
+                                medicine.
+                            </p>
+                        </div>
+                        <div class="col s12">
+                            <div class="margin-top-text"></div>
+                            <img src="images/mobile-app.png" id="phone-app"
+                                class="e2wsasw2Chase responsive-images margin-image" alt="App on a smartphone" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTACT -->
+        <div id="contact" class=" contact-box">
+            <div class="container">
+                <h1 class="register-header center">Contact Me</h1>
+
+                <div class="row">
+                    <div class="col s12 center">
+                        <a href="mailto:13connor.m@thestudio-liverpool.net"
+                            class="contact-link">13connor.m@thestudio-liverpool.net</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!--Footer-->
+    <footer class="page-footer" id="footer">
+        <div class="inner-footer">
+            <div class="footer-row">
+                <div class="col m6 s12">
+                    <p class="footer-copyright">&copy; Apollo App, All rights reserved</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
